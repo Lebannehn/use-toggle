@@ -19,7 +19,7 @@ npm i @27-lanterns/use-toggle
 
 ```tsx
 import React, { FC } from 'react';
-import useToggle from '@27-lanterns/use-toggle';
+import { useToggle } from '@27-lanterns/use-toggle';
 
 const SomeWizardComponent: FC = () => {
 	const [boolValue, toggleBoolValue] = useToggle();
