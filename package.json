@@ -1,6 +1,6 @@
 {
     "name": "@27-lanterns/use-toggle",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A custom React hook for toggling states",
     "author": "Evgenii Astapushkin <lebannehn.karnimirie@gmail.com>",
     "keywords": [
