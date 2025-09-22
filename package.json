@@ -1,0 +1,49 @@
+{
+    "name": "@27-lanterns/use-toggle",
+    "version": "0.0.1",
+    "description": "A custom React hook for toggling states",
+    "author": "Evgenii Astapushkin <lebannehn.karnimirie@gmail.com>",
+    "keywords": [
+        "hooks",
+        "react",
+        "toggle",
+        "state"
+    ],
+    "bugs": {
+        "url": "https://github.com/lebannehn/use-toggle/issues"
+    },
+    "homepage": "https://github.com/lebannehn/use-toggle",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lebannehn/use-toggle.git"
+    },
+    "license": "MIT",
+    "type": "module",
+    "main": "package/index.ts",
+    "scripts": {
+        "gulp:build": "npx gulp build"
+    },
+    "peerDependencies": {
+        "react": ">=16.8.0"
+    },
+    "devDependencies": {
+        "typescript": ">=4.1.6",
+        "@types/react": ">=16.8.0",
+        "@types/gulp": "^4.0.17",
+        "del": "^8.0.0",
+        "gulp": "^5.0.1",
+        "gulp-typescript": "^6.0.0-alpha.1",
+        "through2": "^4.0.2"
+    },
+    "engines": {
+        "node": ">=8.16.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "LICENSE",
+        "README.md",
+        "./package"
+    ]
+}
